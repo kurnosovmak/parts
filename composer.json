@@ -1,0 +1,35 @@
+{
+  "name": "kurnosovmak/laravel-parts",
+  "description": "A package for managing parts(future toggles)",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kurnosov Alexander",
+      "email": "kurnosovmak@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "illuminate/database": "^9.0",
+    "illuminate/support": "^9.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^7.41",
+    "phpunit/phpunit": "^9.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kurnosovmak\\Parts\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Kurnosovmak\\Parts\\Test\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": [
+      "vendor/bin/phpunit"
+    ]
+  }
+}
