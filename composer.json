@@ -3,6 +3,7 @@
   "description": "A package for managing parts(future toggles)",
   "type": "library",
   "license": "MIT",
+  "version": "0.01",
   "authors": [
     {
       "name": "Kurnosov Alexander",
